@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sammy Ventures</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section style="width: 100%; height: 10vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background: #111;
+  color: #fff;
+  font-family: Arial, sans-serif;" class="say">
+      <div id="clock">00:00:00</div>
+  </section>
+    <nav class="navs">
+        <div class="nav">
+            <marquee behavior="alternate" direction="up" scrollamount="1">
+              <h1 style="color: white; padding-top: 5px; font-size: 1.3rem;" class="third">Sammy<span style="color: gold; font-size: 2.1rem;" class="highlight">Ventures</span></h1>
+            </marquee>
+           <div class="menu-toggle" id="menu-toggle">&#9776</div>
+            <ul id="nav-links">
+                
+                  <li><a href="#homes">Home</a></li>
+              
+                <li><a href="#about">About</a></li>
+
+                  <li><a href="#services">Services</a></li>
+               
+                <li><a href="about.html#testimonials-section">Feedback</a></li>
+            </ul>
+            <div class="hold-butt">
+                <button class="butt" style="background-color: orange;">Login</button>
+                <button class="butt" style="background-color: rgb(67, 20, 20);">Sign Up</button>
+            </div>
+        </div>
+    </nav>
+    <section class="first-section" id="homes">
+        <h1 class="sammy">Sammy Ventures Enterprises</h1>
+        <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, voluptatum cum. 
+            <br>
+            Quas libero accusamus necessitatibus?</p>
+    </section>
+    <nav>
+        <ul>
+           
+                <li>Home</li>
+          
+            
+                <li>About</li>
+          
+           
+                <li>Services</li>
+           
+         
+                <li>Feedback</li>
+            
+        </ul>
+    </nav>
+  <style>
+    .controls {
+      display: flex;
+      gap: 10px;
+      margin-top: 20px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      background: maroon;
+      color: white;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    button:hover {
+      background: darkred;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hidden audio -->
+  <audio id="musicPlayer"></audio>
+
+  <!-- Custom controls -->
+  <div class="controls">
+    <button id="prevBtn">⏮ Previous</button>
+    <button id="playPauseBtn">▶ Play</button>
+    <button id="nextBtn">⏭ Next</button>
+  </div>
+
+
+    <section class="about" id="about">
+      <main class="main-conts">
+
+        <div class="first-conts">
+          <h1 class="aboutus">ABOUT<br>US</h1>
+          <h1>Elevating Everyday style</h1>
+        <p>Style is more than just clothing—it's confidence. At Sammy Ventures, we curate timeless, high-quality
+           fashion for men and women, empowering you to express yourself and own every moment with effortless elegance.
+​<br>
+<br>
+Every item in our store is chosen for its superior quality and modern appeal. Whether you’re updating your everyday look or searching for the perfect outfit for a special occasion, you'll find pieces that feel as good as they look.</p>
+<br>
+          <button class="read"><a href="about.html">READ MORE</a></button>
+        </div>
+        <div class="second-conts">
+          <img src="fashion image/backs.jpg" alt="">
+        </div>
+
+      </main>
+    </section>
+    
+     <section class="watch-section" id="services">
+            <h1 class="watchshop">Watch Shop</h1>
+    </section>
+
+   
+
+
+        <div class="hold">
+            <p class="hold-child">NewestArrivals</p>
+            <p class="hold-child">Prices from High To Low</p>
+            <p class="hold-child">Our High-End watches</p>
+        </div>
+
+       
+            <section class="watches-section" id="watches-section">
+                
+
+                <header class="topbar">
+  <h1 class="brand">Glow Fashion</h1>
+  <div class="cart-container">
+    <div class="cart" id="cart-icon">
+      🛒 <span id="cart-count">0</span>
+    </div>
+    <div class="cart-dropdown" id="cart-dropdown">
+      <h3>My Cart</h3>
+      <ul id="cart-items"></ul>
+      <p id="empty-msg">Your cart is empty</p>
+    </div>
+  </div>
+</header>
+
+
+                    <div class="first-container">
+                    
+                            <div class="watch-hovercontainer">
+                                <img src="WAtch image/popular1.png" alt="" class="image1">
+                               <div class="hover-texts">
+                                <button class="addto">Add to Cart</button>
+                                 </div>
+                                   <h1 class="thermo">Thermo Ball Etip Gloves (1)</h1>
+                    
+                            </div>
+                            <div class="watch-hovercontainer">
+                                <img src="WAtch image/popular2.png" alt="" class="image1">
+                               <div class="hover-texts">
+                                <button class="addto">Add to Cart</button>
+                                </div>
+                                <h1 class="thermo">Thermo Ball Etip Gloves (2)</h1>
+                    
+                            </div>
+                            <div class="watch-hovercontainer">
+                                <img src="WAtch image/popular3.png" alt="" class="image1">
+                               <div class="hover-texts">
+                                <button class="addto">Add to Cart</button>
+                                 </div>
+                                   <h1 class="thermo">Thermo Ball Etip Gloves (3)</h1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="second-container">
+                    
+                            <div class="watch-hovercontainer">
+                                <img src="WAtch image/popular4.png" alt="" class="image1">
+                               <div class="hover-texts">
+                                <button class="addto">Add to Cart</button>
+                                </div>
+                                   <h1 class="thermo">Thermo Ball Etip Gloves (4)</h1>
+                    
+                            </div>
+                            <div class="watch-hovercontainer">
+                                <img src="WAtch image/popular5.png" alt="" class="image1">
+                               <div class="hover-texts">
+                                <button class="addto">Add to Cart</button>
+                                 </div>
+                                   <h1 class="thermo">Thermo Ball Etip Gloves (5)</h1>
+                    
+                            </div>
+                            <div class="watch-hovercontainer">
+                                <img src="WAtch image/popular6.png" alt="" class="image1">
+                               <div class="hover-texts">
+                                <button class="addto">Add to Cart</button>
+                                 </div>
+                                   <h1 class="thermo">Thermo Ball Etip Gloves (6)</h1>
+                            </div>
+                    
+              
+                
+                  
+           
+            </section>
+    
+            
+               <section class="dress-section">
+                <h1 class="dressshop">Dress Shop</h1>
+                 </section>
+           
+
+
+            <section class="dress-images">
+                   <main class="home" id="home">
+    <h1 class="brand">Glow Fashion</h1>
+    <p class="tag">Pick a collection</p>
+    <section class="cards">
+      <article class="card" data-section="men" data-color="#1e90ff" aria-label="Open Men collection">
+        <span>Men</span>
+      </article>
+      <article class="card" data-section="women" data-color="#ff1493" aria-label="Open Women collection">
+        <span>Women</span>
+      </article>
+      <article class="card" data-section="children" data-color="#ffd700" aria-label="Open Children collection">
+        <span>Children</span>
+      </article>
+    </section>
+  </main>
+
+  <!-- Expanding glow circle -->
+  <div class="portal" id="portal" aria-hidden="true"></div>
+
+  <!-- Section pages -->
+  <section class="section" id="men" data-color="#1e90ff" aria-hidden="true">
+    <header class="section-header">
+      <h2 style="color: white;">👔 Men’s Fashion</h2>
+      <button class="back-btn" data-target="home" aria-label="Go back to home">Back</button>
+    </header>
+    <div class="gallery">
+      <div class="ph" style="width: 230px;"><img src="fashion image/OIP (3).webp" alt=""></div>
+      <div class="ph"><img src="fashion image/OIP (2).webp" alt=""></div>
+      <div class="ph"><img src="fashion image/OIF (1).jpeg" alt=""></div>
+      <div class="ph"><img src="fashion image/th.jpeg" alt="" style="width: 180px; height: 80%;"></div>
+    </div>
+  </section>
+
+  <section class="section" id="women" data-color="#ff1493" aria-hidden="true">
+    <header class="section-header">
+      <h2 style="color: white;">👗 Women’s Fashion</h2>
+      <button class="back-btn" data-target="home" aria-label="Go back to home">Back</button>
+    </header>
+    <div class="gallery">
+      <div class="ph"><img src="fashion image/OIP (1).webp" alt=""></div>
+      <div class="ph"><img src="fashion image/OIP (7).webp" alt="" style="width: 200px;"></div>
+      <div class="ph"><img src="fashion image/download (1).webp" alt="" style="width: 190px;"></div>
+      <div class="ph"><img src="fashion image/OIP (6).webp" alt="" style="width: 150px;"></div>
+    </div>
+  </section>
+
+  <section class="section" id="children" data-color="#ffd700" aria-hidden="true">
+    <header class="section-header">
+      <h2 style="color: white;">👕 Children’s Fashion</h2>
+      <button class="back-btn" data-target="home" aria-label="Go back to home">Back</button>
+    </header>
+    <div class="gallery">
+      <div class="ph"><img src="fashion image/OIP.jpeg" alt="" style="width: 200px;"></div>
+      <div class="ph"><img src="fashion image/OIP (5).webp" alt="" style="width: 200px; height: 80%;"></div>
+      <div class="ph"><img src="fashion image/OIP (1).jpeg" alt="" style="width: 200px; height: 80%;"></div>
+      <div class="ph"><img src="fashion image/OIP (2).jpeg" alt="" style="width: 200px;"></div>
+    </div>
+  </section>
+
+  
+            </section>
+    <footer style="width: 100%; height: 60vh; background-color: black;">
+      <footer class="footer">
+  <div class="footer-container">
+    <!-- About -->
+    <div class="footer-col">
+      <h3>About Us</h3>
+      <p>
+        Your one-stop destination for trendy, affordable, and timeless fashion. 
+        At <strong>Your Brand Name</strong>, we believe style should be accessible 
+        to everyone, everywhere.
+      </p>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="footer-col">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="index.html#services">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#">FAQs</a></li>
+      </ul>
+    </div>
+
+    <!-- Customer Service -->
+    <div class="footer-col">
+      <h3>Customer Service</h3>
+      <ul>
+        <li><a href="#">Track Your Order</a></li>
+        <li><a href="#">Shipping & Delivery</a></li>
+        <li><a href="#">Returns & Exchanges</a></li>
+        <li><a href="#">Payment Options</a></li>
+        <li><a href="#">Size Guide</a></li>
+      </ul>
+    </div>
+
+    <!-- Newsletter -->
+    <div class="footer-col">
+      <h3>Join Our Newsletter</h3>
+      <p>Be the first to know about new arrivals, discounts & exclusive offers.</p>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+      <div class="socials">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">TikTok</a>
+        <a href="#">YouTube</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom Bar -->
+  <div class="footer-bottom">
+    <p>© 2025 Your Brand Name. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="#">Privacy Policy</a> | 
+      <a href="#">Terms & Conditions</a>
+    </div>
+  </div>
+</footer>
+    </footer>
+   
+<script src="script.js"></script>
+<script src="footer.js"></script>
+<script src="time.js"></script>
+
+
+
+    </body>
+</html>
